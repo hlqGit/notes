@@ -14,7 +14,6 @@
   toc-title: "Table of Contents",
   watermark: none,
   content,
-  chapter: none,
 ) = {
   // Document metadata
   set document(
@@ -34,7 +33,7 @@
         #grid(
           columns: (3fr, 1fr),
           align: (left, right),
-          smallcaps(chapter + " - " + title), datetime.today().display("[month]/[day]/[year]"),
+          smallcaps(title), datetime.today().display("[month]/[day]/[year]"),
         )
         #line(length: 100%)
       ]
@@ -88,7 +87,7 @@
       align: center,
     ),
     
-    text(weight: "black", size: 15pt, chapter + " - " + title),
+    text(weight: "black", size: 15pt, title),
   )
 
   // Table of contents

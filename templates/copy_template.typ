@@ -1,4 +1,4 @@
-#import "../templates/noteworthy_modified.typ": *
+#import "../../templates/noteworthy_modified.typ": *
 //#import "@preview/codly:1.3.0": *
 //#import "@preview/codly-languages:0.1.1": *
 
@@ -7,11 +7,10 @@
   font: "New Computer Modern",
   language: "EN",
   title: "Title",
-  chapter: "Chapter",
   author: "Justin Joslin",
   url: "https://github.com/hlqGit/notes/tree/main",
   toc-title: "Contents",
-  //watermark: "DRAFT", // Optional: Watermark for the document
+  //watermark: "DRAFT",
 )
 
 // definitions

@@ -6,12 +6,11 @@
   paper-size: "a4",
   font: "New Computer Modern",
   language: "EN",
-  title: "Hypothesis Testing for Single Populations",
-  chapter: "Chapter 9",
+  title: "Chapter 9 - Hypothesis Testing for Single Populations",
   author: "Justin Joslin",
   url: "https://github.com/hlqGit/notes/tree/main",
   toc-title: "Contents",
-  //watermark: "DRAFT", // Optional: Watermark for the document
+  //watermark: "DRAFT",
 )
 
 // definitions

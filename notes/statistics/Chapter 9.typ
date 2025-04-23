@@ -144,7 +144,7 @@ Approximate the $p$-value and critical value for the following hypothesis and th
 b. $h_0:mu = 120; #tab H_a:mu eq.not 120$#tab2 for sample of $n=81$, $t=1.18$, and $alpha = 0.05$
 #l
 - Two-tailed test
-*using the $p$-value approach*
+*using the $p$-value approach*\
 using t-table:\
 1.18 is between (0.846, 1.292)\
 $therefore$ $p$-value/2 is between (0.1, 0.2)\

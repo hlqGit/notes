@@ -1,6 +1,5 @@
 
 // All imports
-#import "@preview/theoretic:0.1.1" as theoretic: theorem, proof, qed
 #import "@preview/showybox:2.0.4": showybox
 
 // Main noteworthy function
@@ -102,69 +101,3 @@
   // Main content
   content
 }
-
-// Custom environments using theoretic
-
-// 1. Definition
-#let definition = theorem.with(
-  kind: "definition",
-  supplement: "Definition",
-  fmt-prefix: (s, n, t) => {
-    text(weight: "bold", stretch: 85%)[#s #n]
-    if t != none [ (#t)]
-    h(1em)
-  },
-)
-
-// 2. Example
-#let example = theorem.with(
-  kind: "example",
-  supplement: "Example",
-  fmt-prefix: (s, n, t) => {
-    text(weight: "bold", stretch: 85%)[#s #n]
-    if t != none [ (#t)]
-    h(1em)
-  },
-)
-
-// 3. Theorem
-#let theorem = theorem.with(
-  fmt-prefix: (s, n, t) => {
-    text(weight: "bold", stretch: 85%)[#s #n]
-    if t != none [ (#t)]
-    h(1em)
-  },
-)
-
-// 4. Note
-#let note = theorem.with(
-  kind: "note",
-  supplement: "Note",
-  fmt-prefix: (s, n, t) => {
-    text(weight: "bold", stretch: 85%)[#s #n]
-    if t != none [ (#t)]
-    h(1em)
-  },
-)
-
-// 5. Exercise
-#let exercise = theorem.with(
-  kind: "exercise",
-  supplement: "Exercise",
-  fmt-prefix: (s, n, t) => {
-    text(weight: "bold", stretch: 85%)[#s #n]
-    if t != none [ (#t)]
-    h(1em)
-  },
-)
-
-// 6. Solution
-#let solution = theorem.with(
-  kind: "solution",
-  supplement: "Solution",
-  fmt-prefix: (s, n, t) => {
-    text(weight: "bold")[#s:]
-    if t != none [ (#t)]
-    h(1em)
-  },
-)

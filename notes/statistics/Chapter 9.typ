@@ -91,9 +91,71 @@ Approximate the $p$-value and critical value for the following hypothesis and th
 a. $H_0:mu=0$ #tab $H_a:mu>0$ #tab2 for sample of $n=25$ and $t=1.75$ with $alpha = 0.05$
 #l
 - One tailed (right)
-*$p$-value Approach*\
+*using the $p$-value approach*\
 using t-table:\
 1.75 is between (1.711, 2.064)\
 $therefore$ $p$-value is between (0.025, 0.05)\
 since $p$-value < $alpha=0.05$\
 $therefore$ reject $H_0$\
+\
+=== Second Example:
+#l
+Approximate the $p$-value and critical value for the following hypothesis and their corresponding test statisics.\
+b. $h_0:mu = 20; #tab H_a:mu<20$#tab2 for sample of $n=18$, $t=-2.14$, and $alpha = 0.05$
+#l
+- One tailed (left)\
+*using the $p$-value approach*\
+using t-table:\
+2.14 is between (2.11, 2.567)\
+$therefore p$-value is between (0.01, 0.025)\
+$therefore p$-value is $< alpha=0.05$\
+$therefore$ reject $H_0$\
+\
+*using the critical value approach*\
+given $alpha = 0.5, text(" df") = 17,$ using t-table\
+1.74, but that's for the right side.\
+since distribution is symmetric, we can flip the value.\
+critical value = -1.74\
+comparing the critical value and the t-statistic:\
+-2.14 < -1.74; the t-statistic is in the rejection region\
+$therefore$ reject $H_0$\
+\
+One more approach on next page.
+#pagebreak()
+*with z-statistic instead of t-statistic ($sigma$ known case)*
+- One tailed (left)\
+- using the $p$-value approach\
+z = -2.14\
+using z-table:\
+-2.14 area = 0.0162\
+$p$-value = 0.0162\
+$p$-value < $alpha$\
+$therefore$ reject $H_0$\
+\
+- using critical value approach\
+find value on z table closest to 0.5 ($alpha$)\
+#sym.approx -1.645\
+-2.14 < -1.645\
+$therefore$ reject $H_0$\
+\
+=== Third Example
+#l
+Approximate the $p$-value and critical value for the following hypothesis and their corresponding test statisics.\
+b. $h_0:mu = 120; #tab H_a:mu eq.not 120$#tab2 for sample of $n=81$, $t=1.18$, and $alpha = 0.05$
+#l
+- Two-tailed test
+*using the $p$-value approach*
+using t-table:\
+1.18 is between (0.846, 1.292)\
+$therefore$ $p$-value/2 is between (0.1, 0.2)\
+$therefore$ $p$-value is between (0.2, 0.4)\
+$therefore$ $p$-value > $alpha = 0.05$\
+$therefore$ Failed to reject $H_0$\
+\
+*using the critical value approach*\
+using t-table:\
+since two tailed test, split $alpha$ in half\
+df = 80\
+critical value = 1.99\
+t = 1.18 is in the non-rejection region (t < critical value)\
+$therefore$ Failed to reject $H_0$

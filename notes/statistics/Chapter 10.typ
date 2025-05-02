@@ -37,13 +37,13 @@ $D_0$ is the hypothesized difference between the two means.
 - Populations are independent, which result in independent samples
 - Population standard deviations are unknown.
 #l
+#pagebreak()
 == Properties of Sampling Distribution of $accent(X, macron)_1 - accent(X, macron)_2$
 - The mean of the sampling distribution of $accent(X, macron)_1 - accent(X, macron)_2$ is $mu_1 - mu_2$; that is\
 $ E (accent(X, macron)_1 - accent(X, macron)_2)=mu_1-mu_2 $
 - The standard deviation ("standard error") of the sampling distribution of $accent(X, macron)_1 - accent(X, macron)_2$ is\
 $ sigma_(accent(X, macron)_1 - accent(X, macron)_2)=sqrt(sigma_1^2/n_1+sigma_2^2/n_2) $
 
-#pagebreak()
 == Properties of Sampling Distribution $accent(x, macron)_1 - accent(x, macron)_2$
 Because we don't know population standard deviations, they are estimated using the two sample standard deviations from our independent samples.\
 The two-sample *test statistic* is calculated as:\
@@ -65,9 +65,6 @@ $ d f=((s_1^2/n_1+s_2^2/n_2)^2)/((1/(n_1-1))(s_1^2/n_1)^2+(1/(n_2-1))(s_2^2/n_2)
 *Example:*\
 The Kona Corporation produces coconut milk. They have both a day shift (called the B shift) and a night shift (call the G shift) to do the process. They would like to know if the day shift and the night shift are equally efficient in processing the coconuts. A study is done sampling 9 G shifts and 16 B shifts. The average number of hours to process 100 pounds of coconuts for G shift and B shift are 2 and 3.2 hours. The sample standard deviation for the G and B shift are 0.866 and 1.00. The number of hours to process 100 pounds of coconuts for both shifts are normally distributed. Is there a difference in the mean amount of time for each shift to process 100 pounds of coconuts? Test at the 5% level of significance.
 #ll
-(solved on next page.)
-\
-#pagebreak()
 - first get all data from the question
 $n_1=16 tab accent(x, macron) = 3.2 tab s_1 = 1$\
 $n_2=9 tab accent(x, macron) = 2 tab s_2 = 0.866$\
